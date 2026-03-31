@@ -16,6 +16,10 @@ These aren't prompts. They're complete workflows — scripts, scoring algorithms
 | [**Outbound Engine**](./outbound-engine/) | ICP definition to emails in inbox — fully automated | Cold Outbound Optimizer, Lead Pipeline, Competitive Monitor |
 | [**SEO Ops**](./seo-ops/) | Find the keywords your competitors missed | Content Attack Briefs, GSC Optimizer, Trend Scout |
 | [**Finance Ops**](./finance-ops/) | Your AI CFO that finds hidden costs in 30 minutes | CFO Briefing, Cost Estimate, Scenario Modeler |
+| [**Revenue Intelligence**](./revenue-intelligence/) | Prove content ROI and turn sales calls into strategy | Gong Insight Pipeline, Revenue Attribution, Client Report Generator |
+| [**Conversion Ops**](./conversion-ops/) | Score any landing page and turn survey data into lead magnets | CRO Audit, Survey-to-Lead-Magnet Engine |
+| [**Podcast Ops**](./podcast-ops/) | One episode → 20+ content pieces across every platform | Podcast-to-Everything Pipeline, Content Calendar |
+| [**Team Ops**](./team-ops/) | Ruthless performance audits and meeting intelligence | Elon Algorithm, Meeting-to-Action Extractor |
 
 ---
 
@@ -108,11 +112,27 @@ ai-marketing-skills/
 │   ├── gsc_client.py
 │   ├── trend_scout.py
 │   └── ...
-└── finance-ops/           ← Financial analysis
+├── finance-ops/           ← Financial analysis
+│   ├── SKILL.md
+│   ├── scripts/
+│   ├── references/        ← Metrics, rates, ROI models
+│   └── ...
+├── revenue-intelligence/  ← Sales call insights + attribution
+│   ├── SKILL.md
+│   ├── gong_insight_pipeline.py
+│   ├── revenue_attribution.py
+│   └── client_report_generator.py
+├── conversion-ops/        ← CRO + lead magnet generation
+│   ├── SKILL.md
+│   ├── cro_audit.py
+│   └── survey_lead_magnet.py
+├── podcast-ops/           ← Podcast → content factory
+│   ├── SKILL.md
+│   └── podcast_pipeline.py
+└── team-ops/              ← Performance audits + meeting intel
     ├── SKILL.md
-    ├── scripts/
-    ├── references/        ← Metrics, rates, ROI models
-    └── ...
+    ├── team_performance_audit.py
+    └── meeting_action_extractor.py
 ```
 
 ---
